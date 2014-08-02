@@ -1,0 +1,7 @@
+S3method(as.data.frame,freq)
+S3method(dim,freq)
+S3method(print,freq)
+export(content)
+export(freq)
+useDynLib(sassyr)
+importFrom(Rcpp, sourceCpp)

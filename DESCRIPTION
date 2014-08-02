@@ -1,0 +1,15 @@
+Package: sassyr
+Type: Package
+Title: Simple SAS-inspired tools for exploring data frames
+Version: 1.0
+Author: Daniel Muenz
+Maintainer: Daniel Muenz <dmuenz@umich.edu>
+Description: sassyr is a collection of mostly SAS-inspired
+    functions for simple exploration of data frames.  The main
+    functions are freq, which performs (cross-)frequency
+    tabulations, and contents, which provides a brief summary
+    of an entire data frame.
+License: GPL-3
+LinkingTo: Rcpp
+Imports:
+    Rcpp
